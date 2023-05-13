@@ -2,7 +2,7 @@ package slices
 
 import "golang.org/x/exp/slices"
 
-// Store represents a store.Store backed by a slice.
+// Store represents a kv.Store backed by a slice.
 type Store struct {
 	s []item
 }

@@ -1,6 +1,6 @@
 package maps
 
-// Store represents a store.Store backed by a map.
+// Store represents a kv.Store backed by a map.
 type Store struct {
 	s map[int]int
 }
